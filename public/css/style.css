@@ -1,0 +1,16 @@
+:root {
+    --main: #f4c1921;
+    --second: #b8dff;
+    --third: #363b41;
+    --fourth: #feffaf;
+}
+
+body {
+    background-color: lightblue;
+}
+a {
+    color: var(--main);
+}
+h1 {
+    color: var(--main);
+}
