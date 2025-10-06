@@ -7,5 +7,6 @@
     <x-tentang>tentang</x-tentang>
     <x-portofolio>portofolio</x-portofolio>
     <x-kontak>kontak</x-kontak>
+
   </x-slot>
 </x-layout>

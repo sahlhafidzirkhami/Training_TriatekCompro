@@ -1,8 +1,13 @@
-<section id="kontak" class="bg-gray-50 py-20">
+<section id="kontak" class="bg-gray-50 pt-20 pb-10">
   <div class="container mx-auto px-6">
 
+    @if(session('success'))
+      <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-8 max-w-4xl mx-auto" role="alert">
+        <span class="block sm:inline">{{ session('success') }}</span>
+      </div>
+    @endif
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
       <div class="space-y-6">
         <h2 class="text-4xl font-bold text-triatek-dark">Contact Us</h2>
         <p class="text-gray-600">Kami siap memproses informasi untuk berdiskusi lebih lanjut mengenai proyek Anda.</p>
@@ -36,23 +41,38 @@
             <input type="email" name="email" id="email" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-triatek-primary focus:border-triatek-primary">
             @error('email') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
           </div>
-            <div>
+          <div>
             <label for="subject" class="block text-sm font-medium text-gray-700">Subject*</label>
             <input type="text" name="subject" id="subject" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-triatek-primary focus:border-triatek-primary">
             @error('subject') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
-            </div>
+          </div>
           <div>
             <label for="message" class="block text-sm font-medium text-gray-700">Message*</label>
             <textarea name="message" id="message" rows="4" required class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-triatek-primary focus:border-triatek-primary"></textarea>
             @error('message') <span class="text-red-500 text-sm">{{ $message }}</span> @enderror
           </div>
           <div>
-            <button type="submit" class="w-full text-white font-bold py-3 px-6 rounded-lg bg-gradient-to-r from-purple-600 to-red-500 hover:opacity-90 transition-opacity">
+            <button type="submit" class="w-full text-white font-bold py-3 px-6 rounded-lg bg-triatek-red hover:opacity-90 transition-opacity">
               Submit
             </button>
           </div>
         </form>
       </div>
     </div>
+  </div>
+</section>
+
+<section>
+  <div>
+    
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2109.173616869555!2d107.60653607273629!3d-6.922068017763766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e625ab8dab4f%3A0xef1ba9e9f456d050!2sMenara%20BRI%20Bandung!5e0!3m2!1sid!2sid!4v1759714826154!5m2!1sid!2sid" 
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
 </section>
