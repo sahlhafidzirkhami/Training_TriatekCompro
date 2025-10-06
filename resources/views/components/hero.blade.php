@@ -1,0 +1,3 @@
+<div style="height: 100px; background-color: aqua;">
+    <h1>Hero Section</h1>
+</div>
