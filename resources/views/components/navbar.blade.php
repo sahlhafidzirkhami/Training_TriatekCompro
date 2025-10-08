@@ -32,15 +32,15 @@
       left: 0;
       width: 100%;
       height: 2px;
-      background-color: #b6dff0;
+      background-color: white;
       transform: scaleX(0);
       transform-origin: center;
       transition: transform 0.3s ease;
     }
 
-    .nav-link:hover {
+    /* .nav-link:hover {
       color: #b6dff0;
-    }
+    } */
 
     .nav-link:hover::after {
       transform: scaleX(1);

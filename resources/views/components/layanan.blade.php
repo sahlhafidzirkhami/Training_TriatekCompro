@@ -24,7 +24,7 @@
                 <p class="text-sm text-gray-600 mt-4 flex-grow">
                     We design and build tailored software solutions that combine innovation, functionality, and scalability—empowering businesses to operate more efficiently.
                 </p>
-                <a href="#" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
+                <a href="{{ route('service.software') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
             </div>
 
             {{-- Kartu 2: ERP --}}

@@ -3,9 +3,9 @@
   <x-slot:content>
     <x-hero>hero</x-hero>
     <x-layanan>layanan</x-layanan>
-    <x-proses>proses</x-proses>
+    <!-- <x-proses>proses</x-proses> -->
     <x-tentang>tentang</x-tentang>
-    <x-portofolio>portofolio</x-portofolio>
+    <x-partners/>
     <x-kontak>kontak</x-kontak>
 
   </x-slot>
