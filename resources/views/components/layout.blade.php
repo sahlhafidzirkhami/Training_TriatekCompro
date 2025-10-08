@@ -15,7 +15,7 @@
 </head>
 <body class="font-sans antialiased">
 
-<x-navbar></x-navbar>
+<x-navbar/>
     <main>
         {{ $content }}
     </main>
