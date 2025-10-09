@@ -191,16 +191,16 @@
     <div class="hero-content">
         <div class="hero-tagline">Innovate • Communicate • Grow</div>
         <h1 class="hero-title">
-            Empowering Brands Through <br>
-            Technology & Communication
+            {{ __('hero.tagline1') }}<br>
+            {{ __('hero.tagline2') }}
         </h1>
         <p class="hero-text">
-            Triatek blends software innovation with strategic communications to help your brand grow, protect, and amplify in the digital era.
+            {{ __('hero.desc') }}
         </p>
 
         <div class="hero-buttons">
-            <a href="#contact" class="btn-main">Get in Touch</a>
-            <a href="#services" class="btn-outline">Explore Services</a>
+            <a href="#contact" class="btn-main">{{ __('hero.contact') }}</a>
+            <a href="#services" class="btn-outline">{{ __('hero.services') }}</a>
         </div>
     </div>
 </section>
