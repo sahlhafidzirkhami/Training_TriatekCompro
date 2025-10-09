@@ -20,7 +20,9 @@ Route::get('/language/{locale}', function ($locale) {
 Route::get('/messages', function () {
     return view('messages');
 });
-Route::resource('messages', MessageController::class);
+Route::resource('messages', MessageController::class)->middleware('auth');
 
 Route::get('/service/software-development', [PageController::class, 'softwareDevelopment'])
     ->name('service.software');
+
+require __DIR__.'/auth.php';
