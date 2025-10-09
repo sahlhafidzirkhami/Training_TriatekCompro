@@ -16,6 +16,9 @@ export default {
                 // Jadikan Poppins sebagai font default sans-serif
                 sans: ["Poppins", ...defaultTheme.fontFamily.sans],
             },
+            backgroundImage: {
+                'background-login': "url('/images/backgroundlogin.jpg')",
+            }
         },
     },
     plugins: [],
