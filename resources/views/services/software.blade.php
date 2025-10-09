@@ -33,7 +33,7 @@
 
       <!-- Left Image -->
       <div class="flex justify-center">
-        <img src="/images/software-team.jpg" alt="Software development team" class="rounded-xl shadow-lg w-full max-w-md">
+        <img src="/images/softwaredevelopmentteam.jpg" alt="Software development team" class="rounded-xl shadow-lg w-full max-w-md">
       </div>
 
       <!-- Right Text -->
@@ -252,7 +252,7 @@
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <!-- Left Illustration -->
         <div class="flex justify-center" data-aos="fade-right" data-aos-duration="800">
-            <img src="/images/why-software.png" alt="Software Illustration"
+            <img src="/images/software.png" alt="Software Illustration"
                  class="w-3/4 md:w-full max-w-md drop-shadow-[0_0_25px_rgba(255,0,0,0.25)]">
         </div>
 
