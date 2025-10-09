@@ -37,7 +37,7 @@
                 <p class="text-sm text-gray-600 mt-4 flex-grow">
                     We start by understanding your business goals and current challenges to design an ERP strategy that fits your specific industry requirements.
                 </p>
-                <a href="#" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
+                <a href="{{ route('services.erp') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
             </div>
 
             {{-- Kartu 3: PR Agency --}}
@@ -50,7 +50,7 @@
                 <p class="text-sm text-gray-600 mt-4 flex-grow">
                     We craft strategic communication campaigns that strengthen brand image, build trust, and connect companies with their audiences through impactful storytelling.
                 </p>
-                <a href="#" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
+                <a href="{{ route('services.pr') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
             </div>
 
         </div>
