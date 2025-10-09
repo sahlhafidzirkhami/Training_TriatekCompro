@@ -22,7 +22,7 @@
                 </svg>
                 <h3 class="text-lg font-bold uppercase tracking-wider text-triatek-primary">Software Development</h3>
                 <p class="text-sm text-gray-600 mt-4 flex-grow">
-                    We design and build tailored software solutions that combine innovation, functionality, and scalability—empowering businesses to operate more efficiently.
+                    We design and build tailored software solutions that combine innovation, functionality, and scalability—empowering businesses to operate more efficiently and grow sustainably.
                 </p>
                 <a href="{{ route('service.software') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
             </div>
@@ -35,7 +35,7 @@
                 </svg>
                 <h3 class="text-lg font-bold uppercase tracking-wider text-triatek-primary">Enterprise Resource Planning</h3>
                 <p class="text-sm text-gray-600 mt-4 flex-grow">
-                    We start by understanding your business goals and current challenges to design an ERP strategy that fits your specific industry requirements.
+                    We start by understanding your business goals, current challenges, and operational workflow. Our team conducts a thorough analysis to design an ERP strategy that fits your specific industry requirements.
                 </p>
                 <a href="{{ route('services.erp') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">More</a>
             </div>
@@ -56,4 +56,3 @@
         </div>
     </div>
 </section>
-{{-- ===== BAGIAN SERVICES (DESAIN BARU & LEBIH RAMPING) - SELESAI ===== --}}
