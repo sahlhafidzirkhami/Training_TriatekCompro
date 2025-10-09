@@ -73,10 +73,10 @@
 
     {{-- DESKTOP MENU --}}
     <div class="hidden md:flex items-center space-x-10">
-      <a href="#layanan" class="nav-link">{{ __('navbar.services') }}</a>
-      <a href="#proses" class="nav-link">{{ __('navbar.procedure') }}</a>
-      <a href="#tentang" class="nav-link">{{ __('navbar.about') }}</a>
-      <a href="#portofolio" class="nav-link">{{ __('navbar.why_us') }}</a>
+      <a href="/#layanan" class="nav-link">{{ __('navbar.services') }}</a>
+      <a href="/#proses" class="nav-link">{{ __('navbar.procedure') }}</a>
+      <a href="/#tentang" class="nav-link">{{ __('navbar.about') }}</a>
+      <a href="/#portofolio" class="nav-link">{{ __('navbar.why_us') }}</a>
     </div>
        <div class="hidden md:flex items-center gap-6">
         {{-- === LANGUAGE SWITCHER BARU (Handle Diperbesar) === --}}
