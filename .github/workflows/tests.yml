@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - master
-      - '*.x'
+      - "*.x"
   pull_request:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 permissions:
   contents: read
@@ -44,4 +44,22 @@ jobs:
         run: php artisan key:generate
 
       - name: Execute tests
+        run: vendor/bin/phpunit
+
+      - name: Copy .env
+        run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+
+      - name: Install Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Generate key
+        run: php artisan key:generate
+
+      - name: Create SQLite Database
+        run: touch database/database.sqlite
+
+      - name: Run migrations
+        run: php artisan migrate --env=testing --no-interaction
+
+      - name: Execute tests (via PHPUnit)
         run: vendor/bin/phpunit
