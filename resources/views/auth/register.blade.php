@@ -1,4 +1,4 @@
-<x-guest-layout>
+<!-- <x-guest-layout>
     {{-- Container utama dengan background abu-abu muda, sama seperti login --}}
     <div class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-100">
 
@@ -70,4 +70,4 @@
         .delay-4 { animation-delay: 0.8s; }
         .delay-5 { animation-delay: 1.0s; }
     </style>
-</x-guest-layout>
+</x-guest-layout> -->

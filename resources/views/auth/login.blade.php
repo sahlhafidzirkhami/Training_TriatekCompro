@@ -41,25 +41,11 @@
                             <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-[#4c1920] shadow-sm focus:ring-[#4c1920]" name="remember">
                             <span class="ms-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
                         </label>
-
-                        @if (Route::has('password.request'))
-                            <a class="underline text-sm text-gray-500 hover:text-[#4c1920] rounded-md" href="{{ route('password.request') }}">
-                                {{ __('Forgot your password?') }}
-                            </a>
-                        @endif
                     </div>
-
                     <div class="mt-8 animate-fadeInUp delay-4">
                         <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-[#4c1920] hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4c1920] transition-transform transform hover:scale-[1.02]">
                             {{ __('Log in') }}
                         </button>
-                    </div>
-
-                    <div class="mt-8 text-center text-sm text-gray-500 animate-fadeInUp delay-5">
-                        Don't have an account? 
-                        <a href="{{ route('register') }}" class="font-medium text-[#4c1920] hover:underline">
-                            Sign up
-                        </a>
                     </div>
                 </form>
             </div>

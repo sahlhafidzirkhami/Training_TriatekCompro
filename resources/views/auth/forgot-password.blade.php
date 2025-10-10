@@ -1,4 +1,4 @@
-<x-guest-layout>
+<!-- <x-guest-layout>
     {{-- Container utama dengan background abu-abu muda --}}
     <div class="min-h-screen flex flex-col items-center justify-center p-4 bg-gray-100">
 
@@ -59,4 +59,4 @@
         .delay-2 { animation-delay: 0.4s; }
         .delay-3 { animation-delay: 0.6s; } {{-- Delay ditambahkan untuk tombol kembali --}}
     </style>
-</x-guest-layout>
+</x-guest-layout> -->
