@@ -59,4 +59,4 @@
         .delay-2 { animation-delay: 0.4s; }
         .delay-3 { animation-delay: 0.6s; } {{-- Delay ditambahkan untuk tombol kembali --}}
     </style>
-</x-guest-layout>
+</x-guest-layout> -->
