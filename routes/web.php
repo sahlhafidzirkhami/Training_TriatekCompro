@@ -25,4 +25,10 @@ Route::resource('messages', MessageController::class)->middleware('auth');
 Route::get('/service/software-development', [PageController::class, 'softwareDevelopment'])
     ->name('service.software');
 
-require __DIR__.'/auth.php';
+Route::get('/services/erp', function () {
+    return view('services.erp');
+})->name('services.erp');
+    
+Route::get('/services/pr', function () {
+    return view('services.pr');
+})->name('services.pr');
