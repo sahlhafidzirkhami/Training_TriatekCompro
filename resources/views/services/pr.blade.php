@@ -144,7 +144,7 @@
       <!-- Step 2 -->
       <div class="flex flex-col md:flex-row md:items-start md:justify-between border-t border-gray-800 pt-8 opacity-0 translate-y-10 transition-all duration-1000 ease-out scroll-reveal delay-[200ms]">
         <h3 class="text-2xl font-semibold mb-3 md:mb-0 text-white">
-          Execution & Engagement
+          Manage & Adjusting
         </h3>
         <p class="text-gray-400 md:w-1/2 leading-relaxed">
          We manage outreach, coordinate events, and monitor public sentiment in real time, adjusting strategies as needed.
