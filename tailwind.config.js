@@ -17,22 +17,9 @@ export default {
                 // Jadikan Poppins sebagai font default sans-serif
                 sans: ["Poppins", ...defaultTheme.fontFamily.sans],
             },
-<<<<<<< HEAD
-            // 🔥 Tambahan animasi gradien merah-hitam
-            keyframes: {
-                gradientFlow: {
-                    "0%, 100%": { backgroundPosition: "0% 50%" },
-                    "50%": { backgroundPosition: "100% 50%" },
-                },
-            },
-            animation: {
-                gradientFlow: "gradientFlow 12s ease infinite",
-            },
-=======
             backgroundImage: {
-                'background-login': "url('/images/backgroundlogin.jpg')",
-            }
->>>>>>> 50d3835eb67091d10c2742496cc8f254f1e0dcc7
+                "background-login": "url('/images/backgroundlogin.jpg')",
+            },
         },
     },
     plugins: [],
