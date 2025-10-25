@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PageController;
-
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 Route::get('/', function () {
     return view('home',['title' => 'Home']);
 });
@@ -20,7 +20,16 @@ Route::get('/language/{locale}', function ($locale) {
 Route::get('/messages', function () {
     return view('messages');
 });
+Route::get('login', [AuthenticatedSessionController::class, 'create'])
+            ->middleware('guest')
+            ->name('login');
 Route::resource('messages', MessageController::class)->middleware('auth');
+Route::post('login', [AuthenticatedSessionController::class, 'store'])
+            ->middleware('guest');
+
+Route::post('logout', [AuthenticatedSessionController::class, 'destroy'])
+            ->middleware('auth')
+            ->name('logout');
 
 Route::get('/service/software-development', [PageController::class, 'softwareDevelopment'])
     ->name('service.software');

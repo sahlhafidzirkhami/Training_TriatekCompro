@@ -3,13 +3,13 @@
         
         <div id="partner-text-content" class="text-center mb-20 transition-all duration-1000 ease-out opacity-0 translate-y-8">
             <h2 class="text-sm uppercase tracking-widest text-red-300 font-semibold mb-3">
-                Our Partners & Clients
+                {{ __('partners.title') }}
             </h2>
             <h3 class="text-4xl sm:text-6xl font-extrabold text-white leading-tight tracking-tight">
-                Trusted by Industry Leaders
+                {{ __('partners.desc1') }}
             </h3>
             <p class="mt-6 text-lg text-gray-300 max-w-3xl mx-auto">
-                We are proud to be trusted by leading brands and organizations across industries. Together with our partners and clients, we innovate, grow, and create lasting impact. Join us and discover how collaboration can unlock new opportunities for your business.
+                {{ __('partners.desc2') }}
             </p>
         </div>
 

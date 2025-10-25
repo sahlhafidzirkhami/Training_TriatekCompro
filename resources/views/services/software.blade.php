@@ -12,16 +12,14 @@
       <!-- Text Content -->
       <div class="fade-in-up">
         <p class="text-sm tracking-[3px] uppercase text-gray-400 mb-4 fade-in-up">
-          Software Development Services
+          {{ __('software.subtitle') }}
         </p>
         <h1 class="text-4xl md:text-5xl font-bold leading-tight max-w-xl mb-6">
-          Curious if you can both develop and promote your app? <span class="text-red-500">Discover the answer.</span>
+          {{ __('software.title') }}<span class="text-red-500"> {{ __('software.titleRed') }}</span>
         </h1>
       <p class="text-gray-400 leading-relaxed mb-5">
-        At <span class="text-red-500">Triatek</span>, we transform business ideas into powerful digital solutions.
-        Our software development service combines deep technical expertise with a clear understanding of your goals,
-        ensuring every product is
-        <span class="text-red-500">reliable, scalable, and built for growth.</span>
+        {{ __('software.at') }} <span class="text-red-500">Triatek</span>,{{__('software.desc1')}}
+        <span class="text-red-500">{{__('software.desc1Red')}}</span>
       </p>
       <p class="text-gray-400 leading-relaxed">
         From <span class="text-red-500">mobile apps and web platforms</span> to

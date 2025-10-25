@@ -11,9 +11,9 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-start max-w-6xl mx-auto">
             {{-- === Contact Info (DIUBAH: Tampilan lebih modern & profesional) === --}}
             <div class="space-y-8 animate-fadeIn">
-                <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
+                <h2 class="text-4xl font-bold text-gray-800">{{ __('kontak.title') }}</h2>
                 <p class="text-gray-600 leading-relaxed">
-                    Kami siap membantu Anda mendiskusikan proyek dan memberikan solusi digital terbaik untuk bisnis Anda.
+                    {{ __('kontak.desc') }}
                 </p>
 
                 <div class="space-y-6">
@@ -81,7 +81,7 @@ Jl. Asia Afrika No.57, Kota Bandung</span>
                     <div>
                         {{-- DIUBAH: Warna tombol diganti menjadi #4c1920 dengan hover effect --}}
                         <button type="submit" class="w-full text-white font-semibold py-3 px-6 rounded-lg bg-[#4c1920] hover:bg-opacity-90 shadow-lg transition-all transform hover:scale-[1.02]">
-                            Send Message
+                            {{ __('kontak.button') }}
                         </button>
                     </div>
                 </form>

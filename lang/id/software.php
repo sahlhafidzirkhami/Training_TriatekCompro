@@ -1,0 +1,25 @@
+<?php
+
+return [
+'subtitle'=>'Layanan Pengembangan Perangkat Lunak',
+'title'=>'Penasaran apakah Anda bisa mengembangkan dan mempromosikan aplikasi Anda?',
+'titleRed'=>'Temukan jawabannya.',
+'at'=>'di',
+'desc1'=>'kami mengubah ide bisnis menjadi solusi digital yang kuat. Layanan pengembangan perangkat lunak kami menggabungkan keahlian teknis yang mendalam dengan pemahaman yang jelas tentang tujuan Anda, memastikan setiap produk yang kami kembangkan.',
+'desc1Red'=>'andal, skalabel, dan dirancang untuk pertumbuhan.',
+'desc2'=>'Dari aplikasi seluler dan platform web hingga solusi manajemen bisnis berskala besar, Triatek menyediakan perangkat lunak yang meningkatkan efisiensi, memperbaiki pengalaman pelanggan, dan membantu Anda tetap unggul di pasar.',
+'subtitle2'=>'Layanan Utama Kami',
+'title2'=>'Keahlian utama kami terletak pada membangun ekosistem perangkat lunak yang cerdas, andal, dan dapat diskalakan.',
+'item1Title'=>'Aplikasi Mobile dan Web Kustom',
+'item1Desc'=>'Kami merancang dan mengembangkan aplikasi web, desktop, dan mobile yang disesuaikan dengan kebutuhan bisnis Anda dan dapat berkembang seiring dengan pertumbuhan bisnis Anda.',
+'item2Title'=>'Desain UI/UX',
+'item2Desc'=>'Kami menciptakan antarmuka yang intuitif dan pengalaman pengguna yang membuat aplikasi Anda menarik, mudah digunakan, dan ramah pengguna.',
+'item3Title'=>'Integrasi Sistem & Pengembangan API',
+'item3Desc'=>'Tim kami menghubungkan platform baru dan yang sudah ada-layanan cloud, database, dan aplikasi pihak ketiga-untuk pertukaran dan otomatisasi data tanpa hambatan.',
+'item4Title'=>'Konsultasi IT & Penasihat Teknologi',
+'item4Desc'=>'Dari peta jalan transformasi digital hingga tinjauan arsitektur, kami memberikan panduan strategis untuk menyelaraskan teknologi dengan tujuan bisnis Anda.',
+'item5Title'=>'Pemeliharaan & Dukungan',
+'item5Desc'=>'Kami menyediakan pemantauan berkelanjutan, pemecahan masalah, dan pembaruan rutin untuk memastikan sistem Anda tetap aman, stabil, dan selalu diperbarui.',
+'item6Title'=>'Layanan Cloud & DevOps',
+'item6Desc'=>'Kami membantu Anda beralih ke cloud, mengoptimalkan infrastruktur, dan mengimplementasikan CI/CD pipelines untuk pengiriman perangkat lunak yang lebih cepat dan andal.',
+];
