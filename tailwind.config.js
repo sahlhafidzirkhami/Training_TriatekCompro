@@ -1,4 +1,5 @@
 import defaultTheme from "tailwindcss/defaultTheme";
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: ["./resources/**/*.blade.php", "./resources/**/*.js"],
@@ -15,6 +16,16 @@ export default {
             fontFamily: {
                 // Jadikan Poppins sebagai font default sans-serif
                 sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+            },
+            // 🔥 Tambahan animasi gradien merah-hitam
+            keyframes: {
+                gradientFlow: {
+                    "0%, 100%": { backgroundPosition: "0% 50%" },
+                    "50%": { backgroundPosition: "100% 50%" },
+                },
+            },
+            animation: {
+                gradientFlow: "gradientFlow 12s ease infinite",
             },
         },
     },

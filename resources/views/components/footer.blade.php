@@ -1,5 +1,5 @@
 {{-- resources/views/layouts/footer.blade.php --}}
-<footer class="bg-[#2B0B0B] text-white pt-16 border-t border-[#3C0D0D]/60">
+<footer class="bg-triatek-primary shadow-lg text-white pt-16 border-t border-[#3C0D0D]/60">
     <div class="max-w-7xl mx-auto px-6 md:px-12">
 
         {{-- Grid Utama --}}

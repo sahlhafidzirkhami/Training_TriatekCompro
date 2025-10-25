@@ -21,16 +21,16 @@
             {{-- Kolom Kiri: Teks dengan Animasi --}}
             <div class="text-white max-w-lg">
                 <p class="animate-slide-in-up font-semibold uppercase tracking-widest text-triatek-red text-sm">
-                    About Us
+                    {{ __('tentang.title') }}
                 </p>
                 <h2 class="animate-slide-in-up delay-300 text-4xl lg:text-5xl font-bold mt-4 text-white leading-tight">
-                    We Design and Build Solutions That Empower Businesses
+                    {{ __('tentang.desc1') }}
                 </h2>
                 <p class="animate-slide-in-up delay-500 mt-6 text-triatek-secondary text-lg leading-relaxed">
-                    Triatek is a multinational team of passionate innovators who love technology and communication. We design and build solutions to help you grow, protect, and amplify your brand.
+                    {{ __('tentang.desc2') }}
                 </p>
                 <a href="#getintouch" class="animate-slide-in-up delay-700 inline-flex items-center mt-10 px-8 py-3 border-2 border-triatek-red text-triatek-red font-bold hover:bg-triatek-red hover:text-[#0A192F] transition-all duration-300 text-sm tracking-widest">
-                    <span class="mr-2 text-xl">+</span> GET IN TOUCH
+                    <span class="mr-2 text-xl">+</span> {{ __('tentang.button') }}
                 </a>
             </div>
 

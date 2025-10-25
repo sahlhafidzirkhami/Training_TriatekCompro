@@ -73,15 +73,30 @@
 
     {{-- DESKTOP MENU --}}
     <div class="hidden md:flex items-center space-x-10">
-      <a href="#layanan" class="nav-link">Services</a>
-      <a href="#proses" class="nav-link">Procedure</a>
-      <a href="#tentang" class="nav-link">About</a>
-      <a href="#portofolio" class="nav-link">Why Us</a>
+      <a href="/#layanan" class="nav-link">Home</a>
+      <a href="/#layanan" class="nav-link">{{ __('navbar.services') }}</a>
+      <a href="/#proses" class="nav-link">{{ __('navbar.procedure') }}</a>
+      <a href="/#tentang" class="nav-link">{{ __('navbar.about') }}</a>
+      <a href="/#portofolio" class="nav-link">{{ __('navbar.why_us') }}</a>
     </div>
+       <div class="hidden md:flex items-center gap-6">
+        {{-- === LANGUAGE SWITCHER BARU (Handle Diperbesar) === --}}
+        <a href="{{ route('language.switch', app()->getLocale() == 'id' ? 'en' : 'id') }}" 
+           class="relative flex items-center w-24 h-10 rounded-full bg-gray-800/50 cursor-pointer"
+           aria-label="Language Switcher">
+            
+            <div class="absolute h-10 w-12 rounded-full bg-white shadow-md transition-transform duration-300 ease-in-out transform 
+                        {{ app()->getLocale() == 'id' ? 'translate-x-full' : 'translate-x-0' }}">
+            </div>
 
-    {{-- CONTACT BUTTON --}}
-    <div class="hidden md:block">
-      <a href="#kontak" class="btn-contact py-2.5 px-7 text-sm">Contact</a>
+            <div class="relative flex w-full justify-around z-10">
+                <span class="text-sm font-semibold transition-colors duration-300 {{ app()->getLocale() == 'en' ? 'text-gray-800' : 'text-white' }}">EN</span>
+                <span class="text-sm font-semibold transition-colors duration-300 {{ app()->getLocale() == 'id' ? 'text-gray-800' : 'text-white' }}">ID</span>
+            </div>
+        </a>
+
+        {{-- CONTACT BUTTON --}}
+        <a href="#kontak" class="btn-contact py-2.5 px-7 text-sm">{{ __('navbar.contact') }}</a>
     </div>
 
     {{-- MOBILE MENU TOGGLE --}}
@@ -106,10 +121,10 @@
     @click.away="open = false"
     class="md:hidden bg-[#2B0B0B]/95 backdrop-blur-md border-t border-[#b6dff0]/30">
     
-    <a href="#layanan" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">Services</a>
-    <a href="#proses" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">Procedure</a>
-    <a href="#tentang" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">About</a>
-    <a href="#portofolio" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">Why Us</a>
-    <a href="#kontak" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">Contact</a>
+    <a href="#layanan" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">{{ __('navbar.services') }}</a>
+    <a href="#proses" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">{{ __('navbar.procedure') }}</a>
+    <a href="#tentang" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">{{ __('navbar.about') }}</a>
+    <a href="#portofolio" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">{{ __('navbar.why_us') }}</a>
+    <a href="#kontak" class="block py-3 px-6 text-white hover:bg-[#4D9DE0]/10 transition">{{ __('navbar.contact') }}</a>
   </div>
 </nav>

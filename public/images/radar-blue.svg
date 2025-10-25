@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1600" viewBox="0 0 1000 1600">
+  <!-- Concentric left semicircles, color #b8dff4, no background -->
+  <g fill="none" stroke="#b8dff4" stroke-linecap="butt">
+    <!-- Outer -->
+    <path d="M 900 100 A 700 700 0 1 0 900 1500" stroke-width="120"/>
+    <!-- 2nd -->
+    <path d="M 900 280 A 520 520 0 1 0 900 1320" stroke-width="120"/>
+    <!-- 3rd -->
+    <path d="M 900 460 A 340 340 0 1 0 900 1140" stroke-width="120"/>
+    <!-- Inner -->
+    <path d="M 900 640 A 160 160 0 1 0 900 960" stroke-width="120"/>
+  </g>
+</svg>

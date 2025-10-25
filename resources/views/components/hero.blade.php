@@ -191,16 +191,16 @@
     <div class="hero-content">
         <div class="hero-tagline">Innovate • Communicate • Grow</div>
         <h1 class="hero-title">
-            Empowering Brands Through <br>
-            Technology & Communication
+            {{ __('hero.tagline1') }}<br>
+            {{ __('hero.tagline2') }}
         </h1>
         <p class="hero-text">
-            Triatek blends software innovation with strategic communications to help your brand grow, protect, and amplify in the digital era.
+            {{ __('hero.desc') }}
         </p>
 
         <div class="hero-buttons">
-            <a href="#contact" class="btn-main">Get in Touch</a>
-            <a href="#services" class="btn-outline">Explore Services</a>
+            <a href="#contact" class="btn-main">{{ __('hero.contact') }}</a>
+            <a href="#services" class="btn-outline">{{ __('hero.services') }}</a>
         </div>
     </div>
 </section>
@@ -208,44 +208,58 @@
 {{-- === FEATURE CARDS SECTION === --}}
 <section id="services" class="text-white py-20 px-6 md:px-12 border-t border-[#4c1920]/30">
     <div class="max-w-7xl mx-auto text-center mb-12">
-        <h2 class="expertise-header text-3xl md:text-4xl font-bold mb-4 text-[#b6dff0]">Our Core Expertise</h2>
+        <h2 class="expertise-header text-3xl md:text-4xl font-bold mb-4 text-[#b6dff0]">{{ __('expertise.title') }}</h2>
         <p class="expertise-subtext text-gray-300 text-base md:text-lg max-w-2xl mx-auto">
-            Delivering technology and communication solutions that drive measurable results and brand impact.
+            {{ __('expertise.desc') }}
         </p>
     </div>
 
     {{-- === CARD GRID === --}}
-    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
-            <div class="card-icon">💻</div>
-            <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">Software Development</h3>
-            <p class="text-gray-300 text-sm leading-relaxed">
-                Custom web, mobile, and enterprise systems built for scale and reliability.
-            </p>
-        </div>
+<div class="max-w-7xl mx-auto flex justify-center gap-6">
 
-        <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
-            <div class="card-icon">🧭</div>
-            <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">PR Agency</h3>
-            <p class="text-gray-300 text-sm leading-relaxed">
-                Strategic communication that builds credibility and trust with your audience.
-            </p>
-        </div>
+    {{-- Kartu 1: Software Development --}}
+    <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-[#b6dff0] mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
+        </svg>
+        <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">{{ __('expertise.card1') }}</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+            {{ __('expertise.card1Desc') }}
+        </p>
+    </div>
 
-        <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
-            <div class="card-icon">📊</div>
-            <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">Media Monitoring</h3>
-            <p class="text-gray-300 text-sm leading-relaxed">
-                Real-time insights from news and social media to track your brand performance.
-            </p>
-        </div>
+    {{-- Kartu 2: PR Agency --}}
+    <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-[#b6dff0] mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">{{ __('expertise.card2') }}</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+            {{ __('expertise.card2Desc') }}
+        </p>
+    </div>
 
-        <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
-            <div class="card-icon">🌐</div>
-            <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">Online Reputation</h3>
-            <p class="text-gray-300 text-sm leading-relaxed">
-                Protect, manage, and grow your digital presence effectively.
-            </p>
-        </div>
+    {{-- Kartu 3: Media Monitoring --}}
+    <!-- <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-[#b6dff0] mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+        </svg>
+        <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">Media Monitoring</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+            Real-time insights from news and social media to track your brand performance.
+        </p>
+    </div> -->
+
+    {{-- Kartu 4: Online Reputation --}}
+    <div class="group bg-[#4D9DE0]/10 border border-[#b6dff0]/20 rounded-2xl p-6 hover:bg-[#4D9DE0]/15 hover:shadow-lg hover:shadow-[#4D9DE0]/20 hover:scale-[1.03] transform transition-all duration-500 text-left backdrop-blur-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-[#b6dff0] mb-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+        </svg>
+        <h3 class="text-lg font-semibold text-[#b6dff0] mb-2">{{ __('expertise.card3') }}</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+            {{ __('expertise.card3Desc') }}
+        </p>
+    </div>
+</div>
     </div>
 </section>
