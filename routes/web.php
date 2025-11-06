@@ -41,3 +41,7 @@ Route::get('/services/erp', function () {
 Route::get('/services/pr', function () {
     return view('services.pr');
 })->name('services.pr');
+
+Route::get('/services/sb', function () {
+    return view('services.sb');
+})->name('services.sb');
