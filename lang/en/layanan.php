@@ -8,5 +8,7 @@ return [
 'card2Desc'=>'We start by understanding your business goals, current challenges, and operational workflow. Our team conducts a thorough analysis to design an ERP strategy that fits your specific industry requirements.',
 'card3'=>'PR Agency',
 'card3Desc'=>'We craft strategic communication campaigns that strengthen brand image, build trust, and connect companies with their audiences through impactful storytelling.',
-'button'=>'more'
+'card4'=>'Social Blast ',
+'card4Desc'=>'We help your brand reach a massive audience. Through targeted social media campaign strategies and execution, we increase brand awareness and build impactful interactions.',
+'button'=>'more',
 ];
