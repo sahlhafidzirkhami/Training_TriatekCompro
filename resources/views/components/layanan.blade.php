@@ -60,7 +60,7 @@
                 <a href="{{ route('services.pr') }}" class="mt-auto pt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">{{ __('Layanan.button') }}</a>
             </div>
             
-            {{-- Kartu 4 : Social Blast --}}
+            {{-- Kartu 4 : Wa Blast --}}
             <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
                     {{-- Ikon --}}
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" fill="currentColor" class="w-12 h-12 mb-6 text-triatek-primary">
