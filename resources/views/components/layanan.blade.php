@@ -52,7 +52,6 @@
                 </p>
                 <a href="{{ route('services.pr') }}" class="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">{{ __('Layanan.button') }}</a>
             </div>
-
         </div>
     </div>
 </section>
