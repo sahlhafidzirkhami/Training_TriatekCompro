@@ -1,5 +1,5 @@
 <x-layout>
-  <x-slot:title>Social Blast — Triatek</x-slot:title>
+  <x-slot:title>Public Relation Agency — Triatek</x-slot:title>
   <x-slot:content>
 
   <!-- ================= HERO SECTION ================= -->
@@ -12,19 +12,18 @@
       <!-- Text Content -->
       <div class="fade-in-up">
         <p class="text-sm tracking-[3px] uppercase text-gray-400 mb-4 fade-in-up">
-          Social Blast
+          WA Blast
         </p>
         <h1 class="text-4xl md:text-5xl font-bold leading-tight max-w-xl mb-6">
-           Building Stronger Brands Through <span class="text-red-500">Public Relations Agency</span>
+           Accelerate Your Business Growth with <span class="text-red-500">Wa Blast</span>
         </h1>
         <p class="text-gray-300 leading-relaxed text-base md:text-lg">
-          At Triatek (Sociatrax), we craft powerful communication strategies that elevate brand reputation and build lasting connections with target audiences. From media coverage to digital storytelling, our approach blends creativity, strategy, and measurable results.
-        </p>
+At Triatek (Sociatrax), we empower your brand with fast and efficient communication. Our WA Blast service is your strategic solution for reaching target audiences instantly. From promotions to critical notifications, our approach combines broad reach, smart segmentation, and measurable results.        </p>
       </div>
 
       <!-- Right decorative image -->
       <div class="hidden md:block fade-in-up" style="animation-delay: 0.3s;">
-        <img src="/images/pr-agency.png" alt="ERP dashboard illustration" class="opacity-90 scale-110 drop-shadow-[0_0_30px_rgba(255,0,0,0.25)]">
+        <img src="/images/blast.png" alt="ERP dashboard illustration" class="opacity-90 scale-110 drop-shadow-[0_0_30px_rgba(255,0,0,0.25)]">
       </div>
     </div>
 
@@ -42,21 +41,24 @@
       <p class="text-sm tracking-[3px] uppercase text-gray-400 mb-4">
         Core Services
       </p>
-      <h2 class="text-4xl md:text-5xl font-bold leading-tight max-w-3xl mx-auto">
-        Our PR expertise focuses on <span class="text-red-500">strategic communication</span>,
-        <span class="text-red-500">trust-building</span>, and <span class="text-red-500">brand storytelling.</span>
-      </h2>
+      <h2 class="text-4xl md:text-5xl font-bold leading-tight max-w-3xl mx-auto text-white">
+      Our focus is on providing 
+    <span class="text-red-500">official</span>, 
+    <span class="text-red-500">scalable</span>, and 
+    <span class="text-red-500">measurable</span>
+    WA Blast solutions designed to drive your 
+    <span class="text-red-500">engagement</span>, <span class="text-red-500">sales</span>, and <span class="text-red-500">customer loyalty.</span>
+    </h2>
     </div>
 
     <!-- Grid: 5 items, equal height -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
       @php
         $items = [
-          ['icon' => 'digital.svg', 'title' => 'Digital & Social PR', 'text' => 'Leveraging social media, online communities, and content marketing to expand your brand’s reach and positive sentiment.'],
-          ['icon' => 'management.svg', 'title' => 'Event & Campaign Management', 'text' => 'Planning and executing product launches, press conferences, and influencer activations that spark attention.'],
-          ['icon' => 'communication.svg', 'title' => 'Crisis Communication Management', 'text' => 'Preparing proactive response plans and providing rapid support to safeguard your reputation in challenging times.'],
-          ['icon' => 'messaging.svg', 'title' => 'Brand Messaging & Positioning', 'text' => 'Defining your brand voice and key messages for consistent, audience-focused communication.'],
-          ['icon' => 'mediarelation.svg', 'title' => 'Media Relations & Press Outreach', 'text' => 'Building strong ties with journalists and editors to secure impactful coverage across print, broadcast, and digital outlets.'],
+          ['icon' => 'message-128.svg', 'title' => 'Mass Broadcast', 'text' => 'Reach thousands of customers at once. Our core service lets you instantly send promotions, announcements, notifications, or invoices to your entire contact list with a single click.'],
+          ['icon' => 'whatsapplogo.svg', 'title' => 'Hassle-Free Sending', 'text' => 'Engage a wider audience without the clutter. Send messages to new leads and large customer lists without having to manually save every single number to your device.'],
+          ['icon' => 'messaging.svg', 'title' => 'Dynamic Personalization', 'text' => 'Defining your brand voice and key messages for consistent, audience-focused communication.'],
+          ['icon' => 'online-128.svg', 'title' => 'Smart Automation & Auto-Reply', 'text' => 'Capture every lead, 24/7. Set up intelligent auto-replies or integrate a full-service chatbot to instantly respond to inquiries, answer common questions, and keep customers engaged long after your broadcast is sent.'],
         ];
       @endphp
 
@@ -125,8 +127,8 @@
         How Our Services Work?
       </p>
       <h2 class="text-4xl md:text-5xl font-bold leading-tight max-w-3xl">
-        A <span class="text-red-500">Clear</span> and <span class="text-red-500">Collaborative process</span> from concept to completion.
-      </h2>
+    An <span class="text-red-500">Official</span> and <span class="text-red-500">Scalable process</span> from setup to reporting.
+</h2>
     </div>
 
     <!-- Steps -->
@@ -134,40 +136,40 @@
       <!-- Step 1 -->
       <div class="flex flex-col md:flex-row md:items-start md:justify-between border-t border-gray-800 pt-8 opacity-0 translate-y-10 transition-all duration-1000 ease-out scroll-reveal delay-[100ms]">
         <h3 class="text-2xl font-semibold mb-3 md:mb-0 text-white">
-          Discovery Phase
+          Account Setup & Integration
         </h3>
         <p class="text-gray-400 md:w-1/2 leading-relaxed">
-          We start with a discovery phase to understand your brand’s goals and audience.
+          We start with your official WhatsApp Business API setup, verify your account (Green Tick), and integrate it with your existing database or CRM.
         </p>
       </div>
 
       <!-- Step 2 -->
       <div class="flex flex-col md:flex-row md:items-start md:justify-between border-t border-gray-800 pt-8 opacity-0 translate-y-10 transition-all duration-1000 ease-out scroll-reveal delay-[200ms]">
         <h3 class="text-2xl font-semibold mb-3 md:mb-0 text-white">
-          Manage & Adjusting
+          Strategy & Campaign Building
         </h3>
         <p class="text-gray-400 md:w-1/2 leading-relaxed">
-         We manage outreach, coordinate events, and monitor public sentiment in real time, adjusting strategies as needed.
+         Define your audience. We help you upload contact lists, create target segments, and prepare personalized message templates for approval.
         </p>
       </div>
 
       <!-- Step 3 -->
       <div class="flex flex-col md:flex-row md:items-start md:justify-between border-t border-gray-800 pt-8 opacity-0 translate-y-10 transition-all duration-1000 ease-out scroll-reveal delay-[300ms]">
         <h3 class="text-2xl font-semibold mb-3 md:mb-0 text-white">
-          Execution & Engagement
+          Execution & Automation
         </h3>
         <p class="text-gray-400 md:w-1/2 leading-relaxed">
-          We execute the strategy through media outreach, press releases, events, and digital engagement — ensuring consistent and impactful brand visibility.
+          Send your campaign instantly to thousands of numbers or schedule it for optimal timing. Manage incoming replies with auto-replies or chatbots.
         </p>
       </div>
 
       <!-- Step 4 -->
       <div class="flex flex-col md:flex-row md:items-start md:justify-between border-t border-gray-800 pt-8 opacity-0 translate-y-10 transition-all duration-1000 ease-out scroll-reveal delay-[400ms]">
         <h3 class="text-2xl font-semibold mb-3 md:mb-0 text-white">
-          Reporting & Insights
+          Reporting & Performance Analytics
         </h3>
         <p class="text-gray-400 md:w-1/2 leading-relaxed">
-          Detailed reports keep you informed of results, from media coverage to audience engagement metrics.
+          Detailed analytic reports keep you informed in real-time. Track delivered, read, and failed metrics to continuously optimize your strategy.
         </p>
       </div>
     </div>
@@ -226,11 +228,13 @@
         <!-- Right Text Content -->
         <div data-aos="fade-left" data-aos-duration="1000">
             <h2 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                Why Choose Our<span class="text-red-500"> ERP Solutions?</span>
+                Why Choose Our  <span class="text-red-500"> WA Blast Service?</span>
             </h2>
 
             <p class="text-gray-400 mb-10 leading-relaxed">
-                Partnering with Triatek (Sociatrax)means working with a team that treats public relations as a strategic growth engine, not just media outreach. We immerse ourselves in your brand’s story, values, and goals to craft tailored campaigns that communicate a clear, authentic message and reach the audiences that matter most.
+                In a crowded market, WA Blast tools are easy to find. However, many businesses take huge risks with unofficial platforms that compromise brand reputation and lead to permanent account blocks.
+
+                At Triatek (Sociatrax), we don't just sell software; we offer a strategic partnership that guarantees security, strategy, and measurable results.
             </p>
 
             <!-- Points -->
@@ -239,7 +243,7 @@
                 <div class="flex items-start gap-4 group" data-aos="fade-up" data-aos-delay="100">
                     <span class="text-red-500 text-2xl font-bold transition-transform duration-500 group-hover:scale-125">01</span>
                     <p class="text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-500">
-                        Our strong media network, data-driven insights, and real-time monitoring help us secure impactful coverage.
+                        We are an Official WhatsApp Business Solution Provider (BSP), fully verified by Meta. This is your biggest assurance. Your brand's reputation is safe with us, free from the risks of account bans that plague unofficial services.
                     </p>
                 </div>
 
@@ -247,7 +251,7 @@
                 <div class="flex items-start gap-4 group" data-aos="fade-up" data-aos-delay="200">
                     <span class="text-red-500 text-2xl font-bold transition-transform duration-500 group-hover:scale-125">02</span>
                     <p class="text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-500">
-                        Guide brand perception, and respond quickly to opportunities or challenges.
+                        Your business needs to grow, and our service is built for it. We can integrate our API with your existing systems (CRM, E-commerce, Database) for full automation and seamless workflows.
                     </p>
                 </div>
 
@@ -255,7 +259,7 @@
                 <div class="flex items-start gap-4 group" data-aos="fade-up" data-aos-delay="300">
                     <span class="text-red-500 text-2xl font-bold transition-transform duration-500 group-hover:scale-125">03</span>
                     <p class="text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-500">
-                       With transparent reporting and measurable results, Triatek (Sociatrax) delivers consistent visibility.
+                       We are a full-service strategic partner, guiding you from API setup and campaign strategy to audience segmentation and optimization.
                     </p>
                 </div>
 
@@ -263,7 +267,7 @@
                 <div class="flex items-start gap-4 group" data-aos="fade-up" data-aos-delay="400">
                     <span class="text-red-500 text-2xl font-bold transition-transform duration-500 group-hover:scale-125">04</span>
                     <p class="text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-500">
-                        Protects your reputation, and builds lasting trust with your stakeholders.
+                       Our team provides dedicated support as expert consultants, ready for both technical troubleshooting and strategic campaign planning.
                     </p>
                 </div>
             </div>

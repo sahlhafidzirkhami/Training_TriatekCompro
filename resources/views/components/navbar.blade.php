@@ -124,7 +124,7 @@
                     </div>
                 </a>
             
-                <a href="{{ route('services.pr') }}" class="group p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+                <a href="{{ route('services.sb') }}" class="group p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
                     <div class="w-12 h-12 rounded-lg bg-triatek-primary/10 flex items-center justify-center mb-3 transition-all duration-200 group-hover:bg-triatek-primary/20">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-triatek-primary"><path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.056 3 12s4.03 8.25 9 8.25z" /></svg>
                     </div>

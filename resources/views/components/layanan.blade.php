@@ -72,7 +72,7 @@
                     {{ __('Layanan.card4Desc') }}
                 </p>
                 {{-- DIUBAH: Ganti 'mt-6' menjadi 'mt-auto pt-6' pada <a> --}}
-                <a href="{{ route('services.pr') }}" class="mt-auto pt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">{{ __('Layanan.button') }}</a>
+                <a href="{{ route('services.sb') }}" class="mt-auto pt-6 text-sm font-semibold uppercase tracking-wider text-gray-500 hover:text-triatek-primary">{{ __('Layanan.button') }}</a>
             </div>
         </div>
     </div>
