@@ -2,11 +2,15 @@ import defaultTheme from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./resources/**/*.blade.php", "./resources/**/*.js"],
+    content: [
+        "./resources/**/*.blade.php",
+        "./resources/**/*.js"
+    ],
+
     theme: {
         extend: {
             colors: {
-                "triatek-primary": "#4c1920", // Warna utama (peach/oranye muda)
+                "triatek-primary": "#4c1920", // Warna utama
                 "triatek-white": "#ffffff", // Warna putih
                 "triatek-secondary": "#b8dff4", // Warna sekunder (biru muda)
                 "triatek-dark": "#363b41", // Warna abu-abu gelap
@@ -27,7 +31,12 @@ export default {
             animation: {
                 gradientFlow: "gradientFlow 12s ease infinite",
             },
+            // Tambahan dari branch lain
+            backgroundImage: {
+                'background-login': "url('/images/backgroundlogin.jpg')",
+            }
         },
     },
+
     plugins: [],
 };
