@@ -70,7 +70,7 @@
             background: rgba(255, 255, 255, 0.12);
             display: inline-block;
             padding: 8px 18px;
-            border-radius: 50px;
+            border-radius: 150px;
             color: #b6dff0;
             font-weight: 500;
             font-size: 0.9rem;
@@ -263,3 +263,4 @@
 </div>
     </div>
 </section>
+
