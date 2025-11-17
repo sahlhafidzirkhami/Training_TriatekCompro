@@ -52,7 +52,7 @@ At Triatek (Sociatrax), we empower your brand with fast and efficient communicat
     </div>
 
     <!-- Grid: 5 items, equal height -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
       @php
         $items = [
           ['icon' => 'message-128.svg', 'title' => 'Mass Broadcast', 'text' => 'Reach thousands of customers at once. Our core service lets you instantly send promotions, announcements, notifications, or invoices to your entire contact list with a single click.'],
@@ -284,7 +284,7 @@ At Triatek (Sociatrax), we empower your brand with fast and efficient communicat
       <p class="text-gray-300 max-w-2xl mx-auto mb-8">
         Let’s collaborate to build custom software that enhances your business performance and user experience.
       </p>
-      <a href="{{ route('messages.create') }}" class="inline-block px-8 py-3 bg-red-600 hover:bg-red-700 transition rounded-xl font-semibold shadow-lg">
+      <a href="/#kontak" class="inline-block px-8 py-3 bg-red-600 hover:bg-red-700 transition rounded-xl font-semibold shadow-lg">
         Get in Touch
       </a>
     </div>

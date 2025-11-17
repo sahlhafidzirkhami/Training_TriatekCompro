@@ -215,7 +215,6 @@
     </div>
 
     {{-- === CARD GRID === --}}
-<<<<<<< HEAD
 <div class="max-w-7xl mx-auto flex justify-center gap-6">
 
     {{-- Kartu 1: Software Development --}}
@@ -262,7 +261,6 @@
         </p>
     </div>
 </div>
-=======
     <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
 
         {{-- Kartu 1: Software Development --}}
@@ -297,8 +295,6 @@
                 Protect, manage, and grow your digital presence effectively.
             </p>
         </div>
-
->>>>>>> b7e1b3f1346bdbc24befcc4bf8f846243e28740b
     </div>
 </section>
 

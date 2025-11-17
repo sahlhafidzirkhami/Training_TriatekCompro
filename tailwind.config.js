@@ -31,13 +31,10 @@ export default {
             animation: {
                 gradientFlow: "gradientFlow 12s ease infinite",
             },
-<<<<<<< HEAD
-=======
             // Tambahan dari branch lain
             backgroundImage: {
                 'background-login': "url('/images/backgroundlogin.jpg')",
             }
->>>>>>> b7e1b3f1346bdbc24befcc4bf8f846243e28740b
         },
     },
 
